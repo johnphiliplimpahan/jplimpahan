@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section className="py-24 px-6 md:px-12 lg:px-24 bg-[#080808]">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-24">
           <div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -19,12 +19,12 @@ export default function Contact() {
                 <span className="text-emerald-500 italic">CONNECT</span>
               </h2>
               <p className="text-zinc-400 text-lg max-w-md mb-12">
-                Seeking to contribute to innovative web and mobile solutions. Let&apos;s build something impactful together.
+                Seeking to contribute to innovative web and mobile solutions. Let&apos;s build something impactful together. Reach me at:
               </p>
             </motion.div>
 
             <div className="space-y-6">
-              <a href="mailto:johnphiliplimpahan@gmail.com" className="flex items-center gap-4 group">
+              <a href="mailto:philipjohn234@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500/50 transition-colors">
                   <Mail className="w-5 h-5 text-zinc-500 group-hover:text-emerald-500 transition-colors" />
                 </div>
@@ -34,7 +34,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/john-philip-limpahan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://www.linkedin.com/in/john-philip-limpahan-4243a3165/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500/50 transition-colors">
                   <Linkedin className="w-5 h-5 text-zinc-500 group-hover:text-emerald-500 transition-colors" />
                 </div>
@@ -53,31 +53,6 @@ export default function Contact() {
                   <p className="text-zinc-300">Kolambugan, Lanao Del Norte, PH</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute inset-0 bg-emerald-500/5 blur-[100px] rounded-full" />
-            <div className="relative border border-zinc-800 p-8 md:p-12 rounded-2xl bg-[#050505]/50 backdrop-blur-sm">
-              <h3 className="font-display text-2xl font-bold mb-8">Send a message</h3>
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                <div className="space-y-2">
-                  <label className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">Name</label>
-                  <input type="text" className="w-full bg-transparent border-b border-zinc-800 py-3 focus:outline-none focus:border-emerald-500 transition-colors text-white" placeholder="Your Name" />
-                </div>
-                <div className="space-y-2">
-                  <label className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">Email</label>
-                  <input type="email" className="w-full bg-transparent border-b border-zinc-800 py-3 focus:outline-none focus:border-emerald-500 transition-colors text-white" placeholder="your@email.com" />
-                </div>
-                <div className="space-y-2">
-                  <label className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">Message</label>
-                  <textarea rows={4} className="w-full bg-transparent border-b border-zinc-800 py-3 focus:outline-none focus:border-emerald-500 transition-colors text-white resize-none" placeholder="Tell me about your project" />
-                </div>
-                <button className="w-full py-4 bg-emerald-500 text-black font-bold uppercase tracking-widest text-xs hover:bg-emerald-400 transition-colors flex items-center justify-center gap-2 group">
-                  Send Message
-                  <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                </button>
-              </form>
             </div>
           </div>
         </div>
