@@ -28,7 +28,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <p className="text-xl md:text-2xl text-zinc-400 max-w-md leading-relaxed">
-              Mid Fullstack Developer crafting high-performance web and mobile solutions with a focus on React and Node.js.
+              Senior Fullstack Developer crafting high-performance web and mobile solutions with a focus on React and Node.js.
             </p>
           </motion.div>
 
