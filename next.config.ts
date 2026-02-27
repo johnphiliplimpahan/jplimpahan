@@ -1,5 +1,6 @@
 import type {NextConfig} from 'next';
 
+const repo = 'jplimpahan'
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   eslint: {
@@ -19,7 +20,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  output: 'standalone',
+  output: 'export',
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}`,
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
