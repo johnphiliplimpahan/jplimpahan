@@ -10,7 +10,7 @@ const experiences = [
     location: "Remote (US Client)",
     description: [
       "Leading architecture and full-stack development of a multi-tenant Home Health EMR platform.",
-      "Designed and enforced strict company-scoped multi-tenancy across 50+ backend modules and 60+ tenant-scoped frontend routes.",
+      "Designed and enforced strict company-scoped multi-tenancy across backend modules and tenant-scoped frontend routes.",
       "Implemented claims lifecycle engine, financial state machines, and governed recompute trigger contracts for compliance-critical workflows.",
       "Built robust Node.js + Express + MongoDB backend with domain-level lifecycle and financial invariants.",
       "Developed Next.js 15 App Router frontend with company-scoped routing, service-layer isolation, and permission-based UI gating.",
