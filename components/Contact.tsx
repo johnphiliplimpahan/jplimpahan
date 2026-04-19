@@ -22,7 +22,7 @@ const CONTACT_LINKS = [
 
 export default function Contact() {
   return (
-    <section className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-[#050505] overflow-hidden relative">
+    <section className="py-20 md:py-32 lg:py-40 px-6 md:px-12 lg:px-24 bg-[#050505] overflow-hidden relative">
 
       {/* Ambient glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-emerald-500/[0.04] rounded-full blur-[140px] pointer-events-none" />
@@ -42,7 +42,7 @@ export default function Contact() {
         </motion.div>
 
         {/* Two-column: headline + contact card */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 mb-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 mb-0">
 
           {/* Left: Headline */}
           <motion.div
@@ -53,7 +53,7 @@ export default function Contact() {
             className="flex flex-col justify-between"
           >
             <div>
-              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-[0.88] mb-8">
+              <h2 className="font-display text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter leading-[0.88] mb-8">
                 LET&apos;S BUILD<br />
                 <span className="text-zinc-700">SOMETHING<br />GREAT.</span>
               </h2>
@@ -149,7 +149,7 @@ export default function Contact() {
             data-cursor-hover
             className="flex items-center justify-between py-8 md:py-10 gap-6"
           >
-            <span className="font-display text-2xl md:text-4xl lg:text-5xl font-black tracking-tight text-zinc-500 group-hover:text-white transition-colors duration-500 truncate">
+            <span className="font-display text-base md:text-3xl lg:text-5xl font-black tracking-tight text-zinc-500 group-hover:text-white transition-colors duration-500 truncate">
               philipjohn234@gmail.com
             </span>
             <div className="shrink-0 flex items-center gap-3 font-mono text-[10px] uppercase tracking-widest border border-zinc-800 px-5 py-3 text-zinc-400 group-hover:bg-emerald-500 group-hover:border-emerald-500 group-hover:text-black transition-all duration-300 whitespace-nowrap">

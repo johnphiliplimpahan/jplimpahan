@@ -56,15 +56,15 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-120px' }}
       transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-      className="group grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-20 border-t border-zinc-800 items-center hover:bg-zinc-900/20 transition-colors duration-700"
+      className="group grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-12 md:py-20 border-t border-zinc-800 items-center hover:bg-zinc-900/20 transition-colors duration-700"
     >
       {/* Left: Metadata */}
       <div className={`order-2 ${index % 2 === 1 ? 'lg:order-2' : 'lg:order-1'}`}>
-        <span className="font-display text-[80px] md:text-[110px] font-black text-zinc-900 leading-none block group-hover:text-zinc-800 transition-colors duration-500 select-none">
+        <span className="font-display text-[50px] md:text-[80px] lg:text-[110px] font-black text-zinc-900 leading-none block group-hover:text-zinc-800 transition-colors duration-500 select-none">
           {project.number}
         </span>
 
-        <h3 className="font-display text-4xl md:text-5xl font-black tracking-tight mb-4 -mt-4 group-hover:text-emerald-400 transition-colors duration-300">
+        <h3 className="font-display text-3xl md:text-4xl lg:text-5xl font-black tracking-tight mb-4 -mt-4 group-hover:text-emerald-400 transition-colors duration-300">
           {project.title}
         </h3>
 
@@ -124,7 +124,7 @@ export default function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-display text-5xl md:text-7xl font-black tracking-tighter">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter">
               SELECTED<br />
               <span className="text-zinc-700">WORK</span>
             </h2>

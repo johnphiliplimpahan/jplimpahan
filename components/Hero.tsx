@@ -90,7 +90,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Name — stacked lines, each word reveals independently */}
-          <div className="mb-6 font-display font-black tracking-tighter leading-[0.85]" style={{ fontSize: 'clamp(3.5rem, 8vw, 8rem)' }}>
+          <div className="mb-6 font-display font-black tracking-tighter leading-[0.85]" style={{ fontSize: 'clamp(3rem, 6.5vw, 7rem)' }}>
             <AnimatedWord word={NAME_LINE1} />
             <AnimatedWord word={NAME_LINE2} />
             <AnimatedWord word={NAME_LINE3} className="text-zinc-600" />
@@ -146,25 +146,21 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.3, ease: 'easeOut' }}
-          className="relative flex justify-center lg:justify-end items-end self-end lg:self-auto h-[55vh] lg:h-[85vh]"
+          className="relative hidden lg:flex justify-center items-center"
         >
           {/* Subtle emerald edge glow behind photo */}
           <div className="absolute bottom-0 right-0 w-72 h-72 bg-emerald-500/[0.06] rounded-full blur-[100px] pointer-events-none" />
 
           {/* Photo container */}
-          <div className="relative h-full w-auto max-w-[340px] lg:max-w-[420px]">
+          <div className="relative w-[300px] h-[300px] lg:w-[380px] lg:h-[380px] rounded-full overflow-hidden">
             <Image
-              src="/profile.png"
+              src="/profile.PNG"
               alt="John Philip Limpahan"
               fill
               priority
               className="object-cover object-top"
-              style={{
-                filter: 'grayscale(100%) contrast(1.05)',
-                maskImage: 'linear-gradient(to bottom, black 55%, transparent 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, black 55%, transparent 100%)',
-              }}
-              sizes="(max-width: 1024px) 340px, 420px"
+              style={{ filter: 'grayscale(100%) contrast(1.05)' }}
+              sizes="(max-width: 1024px) 300px, 380px"
             />
           </div>
         </motion.div>

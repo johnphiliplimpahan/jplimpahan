@@ -81,7 +81,7 @@ function ExperienceEntry({ exp, index }: { exp: Experience; index: number }) {
             {String(index + 1).padStart(2, '0')}
           </span>
           <div className="min-w-0">
-            <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight group-hover:text-emerald-400 transition-colors duration-300">
+            <h3 className="font-display text-xl md:text-2xl lg:text-3xl font-bold tracking-tight group-hover:text-emerald-400 transition-colors duration-300">
               {exp.company}
             </h3>
             <p className="font-mono text-xs uppercase tracking-[0.15em] text-zinc-500 mt-1">
@@ -95,7 +95,7 @@ function ExperienceEntry({ exp, index }: { exp: Experience; index: number }) {
         </div>
       </div>
 
-      <div className="pb-8 pl-12 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-2">
+      <div className="pb-8 pl-6 md:pl-12 grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-12 gap-y-2">
         {exp.description.map((item, i) => (
           <p key={i} className="text-zinc-500 text-sm leading-relaxed flex gap-3 items-start">
             <span className="w-1 h-1 rounded-full bg-zinc-700 mt-2 shrink-0 group-hover:bg-emerald-500 transition-colors duration-300" />
@@ -119,7 +119,7 @@ export default function Experience() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               PROFESSIONAL <br />
               <span className="text-zinc-600 italic">JOURNEY</span>
             </h2>

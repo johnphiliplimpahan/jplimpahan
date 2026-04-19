@@ -32,7 +32,7 @@ export default function Skills() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               TECHNICAL <br />
               <span className="text-zinc-600 italic">ARSENAL</span>
             </h2>
@@ -55,7 +55,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="bg-[#050505] p-8 group"
+              className="bg-[#050505] p-5 md:p-8 group"
             >
               <h3 className="font-mono text-xs uppercase tracking-widest text-emerald-500 mb-6 group-hover:translate-x-1 transition-transform duration-300">
                 {category.title}
@@ -86,7 +86,7 @@ export default function Skills() {
                 {skillCategories.flatMap(c => c.skills).map((skill, idx) => (
                   <span
                     key={idx}
-                    className="text-4xl md:text-6xl font-display font-black text-zinc-900 uppercase tracking-tighter hover:text-emerald-500/20 transition-colors duration-500"
+                    className="text-2xl md:text-4xl lg:text-6xl font-display font-black text-zinc-900 uppercase tracking-tighter hover:text-emerald-500/20 transition-colors duration-500"
                   >
                     {skill}
                   </span>
