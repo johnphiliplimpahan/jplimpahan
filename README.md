@@ -11,7 +11,7 @@ I specialize in React, Next.js, React Native, Node.js, and TypeScript, with a st
 - Passionate about clean architecture, performance, and maintainable systems
 - Open to freelance and contract opportunities (remote)
 
-## What I Build
+## What I Build 
 
 I design and develop modern products end-to-end:
 
