@@ -1,21 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## Hi, I'm John Philip Limpahan
 
-# Run and deploy your AI Studio app
+I am a Fullstack Developer from the Philippines with 7+ years of experience building high-performance web and mobile applications.
 
-This contains everything you need to run your app locally.
+I specialize in React, Next.js, React Native, Node.js, and TypeScript, with a strong focus on shipping production-ready software that scales.
 
-View your app in AI Studio: https://ai.studio/apps/0a3a7ddd-16e0-4953-a457-a3ad3fb60dd7
+## About Me
 
-## Run Locally
+- Fullstack Developer, React Specialist, and Mobile Engineer
+- Built solutions across travel, hospitality, and healthcare
+- Passionate about clean architecture, performance, and maintainable systems
+- Open to freelance and contract opportunities (remote)
 
-**Prerequisites:**  Node.js
+## What I Build
 
+I design and develop modern products end-to-end:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# jplimpahan
+- Frontend: React.js, Next.js, TypeScript, Tailwind CSS
+- Backend: Node.js, Express.js, MongoDB
+- Mobile: React Native
+- Architecture: Multi-tenant systems, domain-focused backend design, financial/claims workflows
+
+## Current Focus
+
+I currently lead architecture and fullstack development for KamAI EMR, a multi-tenant Home Health EMR platform serving US clients.
+
+## Selected Work
+
+- Topline Travel: Mobile app + web admin for travel management
+- Secret Date Nights: Mobile-first MERN booking platform
+- KamAI EMR: Multi-tenant healthcare platform with claims lifecycle and financial state logic
+
+## Tech Stack
+
+- Frontend: React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS
+- Backend: Node.js, Express.js, MongoDB, PHP, Laravel, CodeIgniter
+- Mobile: React Native, Android, Kotlin, Java
+- Tools and Cloud: AWS, AppSync, Git/GitHub
+
+## Contact
+
+- Email: philipjohn234@gmail.com
+- LinkedIn: https://www.linkedin.com/in/john-philip-limpahan-4243a3165/
+
+If you are building something ambitious and need a developer who can own both product engineering and system architecture, let's connect.
+
